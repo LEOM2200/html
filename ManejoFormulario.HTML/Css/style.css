@@ -1,0 +1,39 @@
+body .default{
+    line-height: 1.6rm;
+    font-family: 'Lucida Sans Unicode','Lucida Grande',"Sans-Serif";
+    font-size: 12px;
+    color: rgb(55, 160, 125);
+}
+
+#enfasis-columna{
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#enfasis-columna caption{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 12px 15px;
+    color: black;
+}
+
+
+
+#enfasis-columna td{
+    padding: 10px 15px;
+    color: rgb(158, 30, 21);
+    border-top: 1px solid #e8edff;
+}
+
+.columna{
+    background: #00daa3;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+#enfasis-columna tr:hover td{
+    color:rgb(89, 0, 161)
+}
+
